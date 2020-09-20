@@ -1,0 +1,137 @@
+body{
+    margin: 5px;
+    padding: 10px;
+}
+header{
+    background-color: rgb(220,220,220);
+    background-image:url("images/img_flywheel.jpg");
+    padding: 30px;
+    text-align: center;   
+}
+
+nav a{
+color: #000000;
+background: rgba(255,255,255,0.3);
+text-decoration: none;
+font-weight: bold;
+display: inline-block;
+width: 150px;
+border-radius: 10px;
+margin: 30px;
+margin-right: 70px;
+padding: 15px 10px;
+}
+
+p{
+    font-size: 20px;  
+}
+
+.active{
+    background: #FFFFFF;
+    color: #140873;
+    
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    margin:2px;
+    padding:5px;
+    text-transform: uppercase;
+}
+h2{
+    color: #191970;
+    text-transform: uppercase;
+}
+section{
+    background-color: #FFFFFF;
+}
+
+.left{
+	width: 20%;
+	display: inline-block; 
+	float: left;
+	background: #808000;
+	text-align: center;
+	padding: 20px;
+    height: 800px;
+}
+
+a{
+    color: #000000;
+    background:hsla(100%, 100%, 100%, 0.5);
+    padding-right: 65px;
+    padding-left: 65px;
+    text-decoration: none;
+    text-align: center;
+}
+
+img{
+    border: 0.5px solid black;
+    margin: 0 auto;
+    display: block;
+    top: 25px;
+    bottom: 25px;
+    width:150px;
+    height: 150px;
+    float: left;
+   /*background: #6B8E23;*/
+    margin: 8px;
+    
+    
+}
+
+aside{
+    display: inline-block;
+    background: #6B8E23;
+    
+}
+
+.right{
+	width:990px;
+	display: inline-block;
+	overflow: auto;
+    height: 900px;
+}
+
+table{
+     border: 0px ;
+     margin: 20px 100px;
+     padding: 10px;
+     border-spacing: 4px;
+     height: 700px;
+     width: 800px;
+}
+
+th{
+    border: 0 0 4px 0;
+    text-align: center;
+	background-color: rgb(128,128,0);
+    border-radius: 4px 4px 0 0;
+    color: #FFFFFF;
+    padding:8px 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+tr{
+    opacity: 0.7;
+}
+th:first-child{
+    text-align: left;
+}
+
+td{
+    background-color: rgb(220,220,220);
+    padding: 8px 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+td:first-child{
+    text-align: left;
+}
+
+tr:hover{
+    opacity:1;
+    cursor: pointer;
+}
